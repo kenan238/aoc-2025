@@ -53,8 +53,7 @@ for (let i = 1; i < ranges.length; i++)
     mergedRanges.push([cA, cB]);
 }
 
-const total = mergedRanges.reduce((accum, cur) =>
-{
-  return accum + Math.abs(cur[1] - cur[0]) + 1
-}, 0)
+const total = mergedRanges.reduce((accum, cur) => 
+  accum + Math.abs(cur[1] - cur[0]) + 1
+, 0)
 console.log('part 2', total)

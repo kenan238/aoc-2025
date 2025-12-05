@@ -1,5 +1,7 @@
 from functools import lru_cache
 
+# Extremely naive solution before realising I had to actually think.
+
 def has_dup(lst):
   seen = set()
   for item in lst:

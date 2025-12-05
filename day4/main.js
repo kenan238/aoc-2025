@@ -45,9 +45,7 @@ for (var y = 0; y < height; y++)
   for (var x = 0; x < width; x++)
   {
     if (isRoll(x, y) && canAccessPaper(x, y))
-    {
       accessibleRolls++
-    }
   }
 }
 

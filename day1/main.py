@@ -1,4 +1,6 @@
-from math import floor
+# I have no idea what hell unleashed here and I could've definitely written this way better
+# Pretty messy, as I switched gears halfway through into using "unbound".
+# Eh whatever...
 
 dial = 50
 zeros = 0
